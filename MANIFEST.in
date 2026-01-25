@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ewarehouse *.css
+recursive-include ewarehouse *.csv
+recursive-include ewarehouse *.html
+recursive-include ewarehouse *.ico
+recursive-include ewarehouse *.js
+recursive-include ewarehouse *.json
+recursive-include ewarehouse *.md
+recursive-include ewarehouse *.png
+recursive-include ewarehouse *.py
+recursive-include ewarehouse *.svg
+recursive-include ewarehouse *.txt
+recursive-exclude ewarehouse *.pyc
