@@ -102,13 +102,11 @@ app_license = "MIT"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-#	"*": {
-#		"on_update": "method",
-#		"on_cancel": "method",
-#		"on_trash": "method"
-#	}
-# }
+doc_events = {
+    "Purchase Order":{"autoname": "ewarehouse.hook.autonaming.po"},
+    "Purchase Receipt":{"autoname": "ewarehouse.hook.autonaming.pr"},
+    "Purchase Invoice":{"autoname": "ewarehouse.hook.autonaming.pi"},
+}
 
 # Scheduled Tasks
 # ---------------
